@@ -25,7 +25,7 @@ This will create a directory 'dash-gcp-template' and will download all the files
 
 5. After all the packages are downloaded, cd to 'dash-gcp-template' folder start the app using the command below:
 
-	`python3 main.py`
+	`python3 app.py`
 
 After the above step, you can see your app running at port 8080 by clicking on Web Preview icon on the cloud console. To stop this app, go to your google cloud shell terminal and press Crtl+C. This will shutdown your Dash app on your cloud shell
 
