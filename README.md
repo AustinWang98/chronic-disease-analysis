@@ -43,6 +43,8 @@ Interactive [Dash](https://dash.plotly.com/) app for exploratory analysis and a 
 
 ## Local run
 
+Requires **Python 3.9+** (matches `app.yaml` runtime).
+
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
@@ -50,7 +52,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Open http://127.0.0.1:8050 (default Dash dev server).
+Open http://127.0.0.1:8050 (Dash dev server via `app.run`).
 
 **Note:** `notebooks/models.ipynb` uses **PyTorch** for neural-network experiments; PyTorch is not listed in `requirements.txt` (install separately if you rerun that notebook).
 

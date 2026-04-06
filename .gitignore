@@ -7,5 +7,7 @@ dist/
 build/
 myenv/
 venv/
+.venv/
+.venv-verify/
 .env
 .ipynb_checkpoints/

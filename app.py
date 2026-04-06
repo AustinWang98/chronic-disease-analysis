@@ -408,6 +408,6 @@ def update_output(n_clicks, year, location, stratification):
         except Exception as e:
             return f'Error: {str(e)}'
 
-# Run the Dash app
+# Run the Dash app (Dash 2.14+; avoids deprecated run_server)
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8050)
+    app.run(debug=True, port=8050, host='127.0.0.1')
